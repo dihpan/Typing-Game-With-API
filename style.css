@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+span {
+  font-size: 25px;
+}
+
+/* MAIN */
+
+#main {
+  text-align: center;
+}
+
+/* HEADER */
+
+#head {
+  margin: 4rem 0;
+}
+
+.quoteDisplay {
+  margin: 1.5rem auto;
+  padding: 1rem;
+  border: 2px solid #333333;
+  border-radius: 2rem;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+
+#auth {
+  font-weight: bold;
+}
+
+.inputQuote {
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+  border: 3px solid lightblue;
+}
+
+.benar {
+  color: green;
+}
+
+.salah {
+  color: red;
+  text-decoration: underline;
+}
