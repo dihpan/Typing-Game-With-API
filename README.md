@@ -8,13 +8,10 @@ Just a simple typing game with pure html,css and javascript.
 
 ### Installing
 
-Don't forget to type ``` npm install ```
+Don't forget to type ``` npm install ``` to install dependencies for the first time
 
-# leancartid
-
-E
 ## Acknowledgments
 
-* Hat tHANKS tog
 * Inspiration
+* Youtube
 * etc
