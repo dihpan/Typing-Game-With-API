@@ -5,10 +5,7 @@ One Paragraph of project description goes here
 ## Getting Started
 
 Just a simple typing game with pure html,css and javascript.
-
-### Installing
-
-Don't forget to type ``` npm install ``` to install dependencies for the first time
+I uses some ES6 feature like ``` fetch(API Site)
 
 ## Acknowledgments
 
