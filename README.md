@@ -1,6 +1,6 @@
 # Simple Typing game with API
 
-One Paragraph of project description goes here
+Typing Game with random Quotes API from
 
 ## Getting Started
 
