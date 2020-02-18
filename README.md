@@ -1,6 +1,6 @@
 # Simple Typing game with API
 
-Typing Game with random Quotes API from
+Typing Game with random Quotes API from https://api.quotable.io/random
 
 ## Getting Started
 
@@ -9,6 +9,5 @@ I uses some ES6 feature like ``` fetch(API Site) ``` and Promises
 
 ## Acknowledgments
 
-* Inspiration
-* Youtube
+* Thanks to https://api.quotable.io/random for the random quotes
 * etc
