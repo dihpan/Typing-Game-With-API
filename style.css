@@ -69,4 +69,8 @@ span {
   .quoteDisplay {
     width: 300px;
   }
+
+  span {
+    font-size: 16px;
+  }
 }
