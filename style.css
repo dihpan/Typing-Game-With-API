@@ -9,39 +9,49 @@ body {
 
 span {
   font-size: 25px;
+  color: #333333;
 }
 
 /* MAIN */
 
 #main {
   text-align: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 88%);
 }
 
 /* HEADER */
 
-#head {
-  margin: 4rem 0;
+.title {
+  position: relative;
+  top: 4.5rem;
 }
 
 .quoteDisplay {
-  margin: 1.5rem auto;
+  margin: 9rem auto 2rem;
   padding: 1rem;
-  border: 2px solid #333333;
+  /* border: 2px solid #333333; */
   border-radius: 2rem;
   width: 500px;
   height: auto;
   text-align: center;
+  background-color: #ffffff;
+  opacity: 0.8;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #auth {
   font-weight: bold;
 }
 
-.inputQuote {
-  width: 200px;
-  height: 20px;
-  margin-top: 20px;
-  border: 3px solid lightblue;
+#inputQuote {
+  width: 100%;
+  margin: 1.1rem auto;
+}
+
+.field {
+  width: 300px;
+  margin: auto;
 }
 
 .benar {
@@ -51,4 +61,12 @@ span {
 .salah {
   color: red;
   text-decoration: underline;
+}
+
+/* RESPONSIVE VIEW */
+
+@media (max-width: 768px) {
+  .quoteDisplay {
+    width: 300px;
+  }
 }

@@ -5,17 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
     <script src="script.js" defer></script>
     <title>Typing game API</title>
   </head>
   <body>
     <div id="main">
       <header id="head">
-        <h1>Typing Game</h1>
+        <h1 class="title is-2">Typing Game</h1>
       </header>
       <div class="quoteDisplay" id="quoteDisplay"></div>
       <p>Quotes by <em id="auth"></em></p>
-      <input type="text" class="inputQuote" id="inputQuote" autofocus />
+      <!-- <input type="text" class="inputQuote" id="inputQuote" autofocus /> -->
+      <div class="field">
+        <div class="control">
+          <input
+            class="input inputQuote is-primary"
+            id="inputQuote"
+            type="text"
+            placeholder="Typing..."
+            autofocus
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>

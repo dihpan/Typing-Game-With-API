@@ -23,9 +23,11 @@ function matched() {
     } else if (valueInput === spanKarakter.innerHTML) {
       spanKarakter.classList.add('benar');
       spanKarakter.classList.remove('salah');
+      inputQuote.classList.remove('is-danger');
     } else {
       spanKarakter.classList.remove('benar');
       spanKarakter.classList.add('salah');
+      inputQuote.classList.add('is-danger');
       done = false;
     }
   });
