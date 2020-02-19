@@ -66,11 +66,20 @@ span {
 /* RESPONSIVE VIEW */
 
 @media (max-width: 768px) {
+  .title {
+    top: 2rem;
+  }
+
   .quoteDisplay {
+    margin-top: 5rem;
     width: 300px;
   }
 
   span {
     font-size: 16px;
+  }
+
+  #main {
+    height: 100vh;
   }
 }
