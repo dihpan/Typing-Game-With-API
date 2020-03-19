@@ -1,4 +1,4 @@
-# Simple Typing game with API
+# Simple Typing Vanilla Javascript
 
 Typing Game with random Quotes API from https://api.quotable.io/random
 
